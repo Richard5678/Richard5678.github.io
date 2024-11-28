@@ -20,4 +20,3 @@ Hi! I am a candidate for Bachelor of Computer Science at the Univeristy of Water
 I've been a huge sports fan my entire life. Soccer, Football, Basketball, Hockey, swimming, tennis, pingpong are some of my favorites.
 
 In my free time, I enjoy playing go (a kind of chess) mostly online. I also use AI to help me improve my game and it has led to me interest in AI.
-
