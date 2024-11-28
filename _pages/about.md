@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address.
 
 profile:
   align: right
-  image: richard.jpg
+  image: richard.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
 
