@@ -9,6 +9,7 @@ giscus_comments: true
 related_posts: false
 toc:
   beginning: true
+hidden: true
 ---
 
 This post shows how to add a table of contents in the beginning of the post.
