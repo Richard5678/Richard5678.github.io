@@ -17,22 +17,24 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I am a 4B Computer Science student at the University of Waterloo.
 
-Currently, I am interning at NVIDIA as a Software Engineer on the GPU Kernel team. Previously, I interned at 
-  - Google (LLM Fine-Tuning & Knowledge Distillation)
-  - TuSimple (Perception for Autonomous Trucks)
-  - Huawei Canada (Low-Latency C++).
+Currently, I am interning at NVIDIA as a Software Engineer on the GPU Kernel team. Previously, I interned at
 
-I've had the previledge of working with 
-  - Prof. Wenhu Chen (LLM Benchmarking & Video Generation)
-  - Pref. Yaoliang Yu (Data Poisoning & Privacy Protection)
-  - Prof. Alexander Wong (Copyright Infringement Detection) 
-  - Prof. Jimmy Lin (Embedding Extraction)
-  - Prof. Yash Pant (F1tenth Autonomous Racing)
+- Google (LLM Fine-Tuning & Knowledge Distillation)
+- TuSimple (Perception for Autonomous Trucks)
+- Huawei Canada (Low-Latency C++).
+
+I've had the previledge of working with
+
+- Prof. Wenhu Chen (LLM Benchmarking & Video Generation)
+- Pref. Yaoliang Yu (Data Poisoning & Privacy Protection)
+- Prof. Alexander Wong (Copyright Infringement Detection)
+- Prof. Jimmy Lin (Embedding Extraction)
+- Prof. Yash Pant (F1tenth Autonomous Racing)
 
 My research interest lies in
-  - Controlable Deep Generative Models (text to image/videos) while presersing creativity
-  - Alignment algorithms for Large Multi-Modal Models.
-  
+
+- Controlable Deep Generative Models (text to image/videos) while presersing creativity
+- Alignment algorithms for Large Multi-Modal Models.
 
 I've been a huge sports fan my entire life. Soccer, Football, Basketball, Hockey, swimming, tennis, pingpong are some of my favorites.
 

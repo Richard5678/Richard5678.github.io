@@ -26,7 +26,6 @@ For example, suppose the max depth is 3, and we are standing at the root node re
     </div>
 </div>
 
-
 - A higher value from the value network indicates a better state for the AI player. At the root, we choose the child with the max value.
 - At depth 1, it is the opponent's turn, and they will minimize the value for the AI player.
 - This alternating max/min process continues until reaching the leaf nodes.
