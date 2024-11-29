@@ -8,7 +8,6 @@ categories: sample-posts
 related_posts: false
 ---
 
-
 This article is a walk-through of an implementation of a random forest classifier without using any implementations from existing libraries.
 
 ---
@@ -28,10 +27,12 @@ After implementing my own version of a random forest following weeks of struggle
 The simple answer is: Random Forest is a type of decision tree algorithm that uses bagging (training multiple trees).
 
 A decision tree asks a question at each node and splits the data into two child nodes: one with examples that respond "yes" to the question and the other with examples that respond "no." The goal of a split is to group examples with similar labels together. For example:
+
 - In regression, group similar target values together.
 - In classification, group similar labels together.
 
 To achieve this, we define a loss function that quantifies the quality of a split:
+
 - **Regression Tasks:** Use Mean Squared Error (MSE).
 - **Classification Tasks:** Use Gini Index (used in this example).
 
@@ -42,6 +43,7 @@ A Random Forest consists of multiple decision trees, each trained on a subset of
 ## Implementation
 
 ### Steps for Training a Single Tree in Random Forest:
+
 1. Randomly sample features and training examples.
 2. Find the optimal split by calculating the loss for each possible value of the given feature.
 3. Split the data at the current node based on the optimal split point.
@@ -62,10 +64,12 @@ The `random_forest` function calls the `build_tree` function multiple times (equ
 ### Recursive Tree Building: `build_tree`
 
 The function `build_tree` constructs the decision tree recursively. Its base case triggers when:
+
 - The maximum depth is reached.
 - There are no features left to split.
 
 **Key Sections in `build_tree`:**
+
 1. **Finding the Best Split (Lines 41–49):**  
    Sample √(total features), then calculate Gini index for each possible split.
 
@@ -76,7 +80,7 @@ The function `build_tree` constructs the decision tree recursively. Its base cas
 </div>
 
 2. **Calculating Gini Index:**  
-   The Gini index formula is: 
+   The Gini index formula is:
 
 <div class="d-flex justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -84,15 +88,16 @@ The function `build_tree` constructs the decision tree recursively. Its base cas
     </div>
 </div>
 
-   where \(p_i\) is the fraction of examples with label \(i\).
+where \(p_i\) is the fraction of examples with label \(i\).
 
-   A lower Gini index indicates a better split, as it ensures higher node purity.
+A lower Gini index indicates a better split, as it ensures higher node purity.
 
 3. **Construct Node (Lines 52–55):**  
    Initialize the node and store the split point.
 
 4. **Build Subtrees (Lines 59–62):**  
    Recursively build left and right subtrees if:
+
    - Both sub-groups have examples.
    - The split improves the Gini index.
 
@@ -142,10 +147,12 @@ Using 10-fold cross-validation, the implementation achieves **86% accuracy** on 
 ## Parameter Tuning
 
 In Random Forest, two main hyperparameters must be set:
+
 1. **Max Depth**
 2. **Number of Trees**
 
 Using the sklearn library for speed, we tested combinations of these parameters. The best results:
+
 - 50 trees
 - Max depth = 6  
   achieved **85.93% validation accuracy.**
