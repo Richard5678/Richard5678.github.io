@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://arxiv.org/abs/2406.15252">VIDEOSCORE</a> got accepted to EMNLP 2024!
+<a href="https://arxiv.org/abs/2406.15252">VideoScore</a> got accepted to EMNLP 2024!

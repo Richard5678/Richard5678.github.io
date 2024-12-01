@@ -21,7 +21,7 @@ Currently, I am interning at NVIDIA as a Software Engineer on the GPU Kernel tea
 
 - Google (LLM Fine-Tuning & Knowledge Distillation)
 - TuSimple (Perception for Autonomous Trucks)
-- Huawei Canada (Low-Latency C++).
+- Huawei Canada (Low-Latency C++)
 
 I've had the previledge of working with
 
@@ -33,8 +33,8 @@ I've had the previledge of working with
 
 My research interest lies in
 
-- Controlable Deep Generative Models (text to image/videos) while presersing creativity
-- Alignment algorithms for Large Multi-Modal Models.
+- Controllable Deep Generative Models (text to image/video) while preserving creativity
+- Alignment algorithms for Large Multi-Modal Models
 
 I've been a huge sports fan my entire life. Soccer, Football, Basketball, Hockey, swimming, tennis, pingpong are some of my favorites.
 
