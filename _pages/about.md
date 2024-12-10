@@ -33,9 +33,9 @@ I've had the previledge of working with
 
 My research interest lies in
 
-- Controllable Deep Generative Models (text to image/video) while preserving creativity
-- Alignment algorithms for Large Multi-Modal Models
+- Controllable Deep Generative Models (text to image/video)
+- Alignment Algorithms for Large Multi-Modal Models
 
-I've been a huge sports fan my entire life. Soccer, Football, Basketball, Hockey, swimming, tennis, pingpong are some of my favorites.
+I've been a huge sports fan my entire life. Soccer, Basketball, Football, Hockey, Swimming, Tennis, Pingpong are some of my favorites.
 
-Fun fact: I am a 5 Dan Go player (started playing since primary school). AlphaGo sparked my passion to understand intelligence.
+Fun fact: I am a 5 Dan Go player. 
