@@ -21,10 +21,10 @@ Currently, I am interning at NVIDIA as a Software Engineer on the GPU Kernel tea
 
 - Google (LLM Fine-Tuning & Knowledge Distillation)
 - TuSimple (Perception for Autonomous Trucks)
-- Huawei Canada (Low-Latency C++)
 
 I've had the previledge of working with
 
+- Prof. Pascal Poupart (LLM Alignment)
 - Prof. Wenhu Chen (LLM Benchmarking & Video Generation)
 - Pref. Yaoliang Yu (Data Poisoning & Privacy Protection)
 - Prof. Alexander Wong (Copyright Infringement Detection)
