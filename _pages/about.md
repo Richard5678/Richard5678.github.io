@@ -37,4 +37,4 @@ My research interest lies in
 - Controllable Deep Generative Models (text to image/video)
 - Post-Training for Large Multi-Modal Models
 
-Fun fact: I am a 5 Dan Go player. 
+Fun fact: I am a 5 Dan Go player.
