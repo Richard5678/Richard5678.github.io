@@ -15,11 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am a 4B Computer Science student at the University of Waterloo.
+I am a Researcher at [Pika Labs](https://pika.art/blog) working with [Chenlin Meng](https://cs.stanford.edu/~chenlin/).
 
-Currently, I am interning at NVIDIA as a Software Engineer on the GPU Kernel team. Previously, I interned at
+Previously, I interned at
 
-- Google (LLM Fine-Tuning & Knowledge Distillation)
+- NVIDIA (GPU Kernel)
+- Google (LLM Fine-Tuning & Distillation)
 - TuSimple (Perception for Autonomous Trucks)
 
 I've had the previledge of working with
@@ -34,8 +35,6 @@ I've had the previledge of working with
 My research interest lies in
 
 - Controllable Deep Generative Models (text to image/video)
-- Alignment Algorithms for Large Multi-Modal Models
-
-I've been a huge sports fan my entire life. Soccer, Basketball, Football, Hockey, Swimming, Tennis, Pingpong are some of my favorites.
+- Post-Training for Large Multi-Modal Models
 
 Fun fact: I am a 5 Dan Go player. 
