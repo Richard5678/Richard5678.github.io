@@ -27,7 +27,7 @@ I've had the previledge of working with
 
 - Prof. Pascal Poupart (LLM Alignment)
 - Prof. Wenhu Chen (LLM Benchmarking & Video Generation)
-- Pref. Yaoliang Yu (Data Poisoning & Privacy Protection)
+- Prof. Yaoliang Yu (Data Poisoning & Privacy Protection)
 - Prof. Alexander Wong (Copyright Infringement Detection)
 - Prof. Jimmy Lin (Embedding Extraction)
 - Prof. Yash Pant (F1tenth Autonomous Racing)
