@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Researcher at [Pika Labs](https://pika.art/blog) working with [Chenlin Meng](https://cs.stanford.edu/~chenlin/).
+I am a Researcher at [Pika Labs](https://pika.art/blog) working with [Chenlin Meng](https://chenlin9.github.io/).
 
 Previously, I interned at
 
