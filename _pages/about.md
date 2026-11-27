@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Waterloo</a>
+subtitle: <a href='https://genesis-ai.company/'>Genesis AI</a>
 
 profile:
   align: right
@@ -10,31 +10,18 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
 
-news: true # includes a list of nesws items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Researcher at [Pika Labs](https://pika.art/blog) working with [Chenlin Meng](https://chenlin9.github.io/).
+I am a full-stack AI Researcher working across data, infrastructure, and modeling.
 
-Previously, I interned at
+I recently joined [Genesis AI](https://genesis-ai.company/) to spearhead a new research direction with end-to-end ownership and a single goal: solving generalization in robot foundation models. Within weeks of joining, I:
 
-- NVIDIA (GPU Kernel)
-- Google (LLM Fine-Tuning & Distillation)
-- TuSimple (Perception for Autonomous Trucks)
+* Defined the scaling strategy across data, model, and compute.
+* Rewrote the entire distributed training and data infrastructure, achieving 12x higher training throughput, reducing research iteration cycles from days to hours, and supporting horizontal scaling to thousands of GPUs.
 
-I've had the previledge of working with
+Previously, I was a Researcher at [Pika Labs](https://pika.art/) working on video generation, and interned at NVIDIA (GPU kernels), Google (LLM post-training), and TuSimple (autonomous driving perception).
 
-- Prof. Pascal Poupart (LLM Alignment)
-- Prof. Wenhu Chen (LLM Benchmarking & Video Generation)
-- Prof. Yaoliang Yu (Data Poisoning & Privacy Protection)
-- Prof. Alexander Wong (Copyright Infringement Detection)
-- Prof. Jimmy Lin (Embedding Extraction)
-- Prof. Yash Pant (F1tenth Autonomous Racing)
-
-My research interest lies in
-
-- Controllable Deep Generative Models (text to image/video)
-- Post-Training for Large Multi-Modal Models
-
-Fun fact: I am a 5 Dan Go player.
+Fun fact: I am a 5-dan Go player.
