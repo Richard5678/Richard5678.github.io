@@ -77,8 +77,21 @@ layout: default
 
           if (img.complete) fit();
           img.addEventListener('load', fit);
+          window.addEventListener('load', fit);
           window.addEventListener('resize', fit);
           if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+          // Re-fit whenever the intro reflows (for example when a web font finishes loading).
+          if (window.ResizeObserver) {
+            var pending = false;
+            new ResizeObserver(function () {
+              if (pending) return;
+              pending = true;
+              requestAnimationFrame(function () {
+                pending = false;
+                fit();
+              });
+            }).observe(intro);
+          }
         })();
       </script>
     {% endif %}
