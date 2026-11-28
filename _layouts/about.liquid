@@ -40,6 +40,49 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.profile.image %}
+      <script>
+        // Size the profile photo so its height matches the intro text beside it.
+        // Width follows from the photo's own aspect ratio, so it is never distorted.
+        (function () {
+          var profile = document.querySelector('article > .profile');
+          var img = profile && profile.querySelector('img');
+          var intro = profile && profile.parentElement.querySelector(':scope > .clearfix');
+          if (!img || !intro) return;
+
+          function textHeight() {
+            var blocks = intro.children;
+            if (!blocks.length) return 0;
+            return blocks[blocks.length - 1].getBoundingClientRect().bottom - blocks[0].getBoundingClientRect().top;
+          }
+
+          function fit() {
+            if (window.innerWidth < 576 || !img.naturalWidth) {
+              profile.style.width = '';
+              return;
+            }
+            var ratio = img.naturalHeight / img.naturalWidth;
+            var container = profile.parentElement.clientWidth;
+            var minW = container * 0.2;
+            var maxW = container * 0.4;
+            var w = profile.getBoundingClientRect().width;
+            // The text reflows as the photo changes width, so settle over a few passes.
+            for (var i = 0; i < 8; i++) {
+              var target = Math.max(minW, Math.min(maxW, textHeight() / ratio));
+              if (Math.abs(target - w) < 1) break;
+              w = (w + target) / 2;
+              profile.style.width = w + 'px';
+            }
+          }
+
+          if (img.complete) fit();
+          img.addEventListener('load', fit);
+          window.addEventListener('resize', fit);
+          if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+        })();
+      </script>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
